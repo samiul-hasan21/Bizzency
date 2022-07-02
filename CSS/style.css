@@ -1,0 +1,62 @@
+/* Common Section Css Starts */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ ul{
+    list-style-type: none;
+ }
+ a{
+    text-decoration: none;
+ }
+ .container{
+    width: 1170px;
+    margin: 0 auto;
+ }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+ }
+ /* //Common Section Css End */
+
+
+ /* Header Section Css starts */
+#header{
+    font-family: 'Ubuntu', sans-serif;
+}
+#header .top_header{
+    background-color: #0f2f44;
+    color:#fefefe;
+    font-weight: 400;
+    padding: 15px 0;
+}
+#header .top_header .row{
+    justify-content: space-between;
+}
+#header .nav div.row{
+    align-items: center;
+}
+
+#header .nav div .logo{
+    width: 20%;
+}
+#header .nav .menu{
+    width: 80%;
+}
+#header .nav .menu ul{
+    justify-content: flex-end;
+}
+#header .nav .menu ul li a{
+    color: #222222;
+    font-weight: 500;
+    padding:38px 19px;
+    text-transform: capitalize;
+    display: inline-block;
+    transition: 0.3 linear;
+}
+#header .nav .menu ul li:hover a,
+#header .nav .menu ul li a.active{
+    background-color: #fff9e6;
+    color: #ffd153;
+}
